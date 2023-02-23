@@ -12,9 +12,9 @@ path='C:/Users/-NK-/Pictures/Facial recognistion imgs/'+nameID
 isExist=os.path.exists(path)
 
 if isExist:
-    print("Name already Taken")
+    print("Name is already Taken")
     nameID=str(input("Enter your name again"))
-    
+
 else:
     os.makedirs(path)
 
